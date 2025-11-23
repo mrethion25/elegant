@@ -7,16 +7,16 @@ import { Footer } from '@/components/footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Moonveil - Premium Discord Bot',
+  title: 'Z+ - Premium Discord Bot',
   description: 'The ultimate all-in-one Discord bot with music, moderation, and advanced features',
   openGraph: {
-    title: 'Moonveil - Premium Discord Bot',
+    title: 'Z+ - Premium Discord Bot',
     description: 'The ultimate all-in-one Discord bot with music, moderation, and advanced features',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Moonveil - Premium Discord Bot',
+    title: 'Z+ - Premium Discord Bot',
     description: 'The ultimate all-in-one Discord bot with music, moderation, and advanced features',
   },
 };
