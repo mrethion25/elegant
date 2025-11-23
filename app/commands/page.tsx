@@ -82,7 +82,7 @@ export default function Commands() {
             <span className="text-gradient">Commands</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Explore all available commands and learn how to use Moonveil's powerful features
+            Explore all available commands and learn how to use Z+'s powerful features
           </p>
         </motion.div>
 
