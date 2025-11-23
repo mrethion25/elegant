@@ -50,7 +50,7 @@ const commands = [
     example: '/meme drake'
   },
   {
-  name: '/antinueke',
+  name: '/antinuke',
   description: 'Shows or manages anti-nuke settings.',
   category: 'General',
   usage: '/antinuke',
@@ -90,6 +90,48 @@ const commands = [
   category: 'General',
   usage: '/wl <member>',
   example: '/wl @user'
+  },
+  {
+  name: '/ban',
+  description: 'Ban a member from the server.',
+  category: 'Moderation',
+  usage: '/ban <member> [reason]',
+  example: '/ban @user spamming'
+  },
+  {
+  name: '/kick',
+  description: 'Kick a member from the server.',
+  category: 'Moderation',
+  usage: '/kick <member> [reason]',
+  example: '/kick @user rude behaviour'
+  },
+  {
+  name: '/purge',
+  description: 'Delete multiple messages from a channel.',
+  category: 'Moderation',
+  usage: '/purge <amount>',
+  example: '/purge 50'
+  },
+  {
+  name: '/slowmode',
+  description: 'Enable slowmode for a channel.',
+  category: 'Moderation',
+  usage: '/slowmode <seconds>',
+  example: '/slowmode 10'
+  },
+  {
+  name: '/softban',
+  description: 'Ban & instantly unban a member to delete messages.',
+  category: 'Moderation',
+  usage: '/softban <member> [reason]',
+  example: '/softban @user spam cleanup'
+  },
+  {
+  name: '/timeout',
+  description: 'Timeout a member for a specified duration.',
+  category: 'Moderation',
+  usage: '/timeout <member> <duration>',
+  example: '/timeout @user 10m'
   },
   {
     name: '/queue',
