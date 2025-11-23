@@ -9,20 +9,20 @@ import { z } from 'zod';
 
 const faqData = [
   {
-    question: "How do I invite Moonveil to my server?",
+    question: "How do I invite Z+ to my server?",
     answer: "Click the 'Invite Bot' button and select your server. Make sure you have 'Manage Server' permissions to add bots."
   },
   {
-    question: "Is Moonveil free to use?",
-    answer: "Yes! Moonveil offers all core features for free. Premium features are available for supporters."
+    question: "Is Z+ free to use?",
+    answer: "Yes! Z+ offers all core features for free. Premium features are available for supporters."
   },
   {
-    question: "How do I set up music channels?",
-    answer: "Use the /setup music command to configure music channels and permissions for your server."
+    question: "How do I set up automod?",
+    answer: "Use the /prefix to set custom prefix."
   },
   {
-    question: "Can I customize commands?",
-    answer: "Absolutely! Use /custom command to create your own commands with variables and conditions."
+    question: "how to make my server 100% secured",
+    answer: "use /help and enable all anti nukes"
   },
   {
     question: "What should I do if the bot is offline?",
@@ -73,7 +73,7 @@ export default function Support() {
             <span className="text-gradient">Support Center</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Get help with Moonveil and find answers to common questions
+            Get help with Z+ and find answers to common questions
           </p>
         </motion.div>
 
