@@ -31,10 +31,10 @@ export default function Invite() {
           className="text-center mb-16"
         >
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            <span className="text-gradient">Invite Moonveil</span>
+            <span className="text-gradient">Invite Z+</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Add Moonveil to your Discord server and unlock premium features
+            Add Z+ to your Discord server and unlock premium features
           </p>
         </motion.div>
 
@@ -50,9 +50,9 @@ export default function Invite() {
               <Bot className="h-20 w-20 text-purple-400" />
               <div className="absolute inset-0 blur-lg bg-purple-400/30 rounded-full" />
             </div>
-            <h2 className="text-3xl font-bold mb-4">Ready to Invite Moonveil?</h2>
+            <h2 className="text-3xl font-bold mb-4">Ready to Invite Z+</h2>
             <p className="text-gray-300 mb-8">
-              Moonveil will be added to your server with the following permissions
+              Z+ will be added to your server with the following permissions
             </p>
           </div>
 
@@ -85,7 +85,7 @@ export default function Invite() {
             <button
               onClick={() => {
                 // In a real implementation, this would open Discord OAuth
-                window.open('https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID&permissions=8&scope=bot%20applications.commands', '_blank');
+                window.open('https://discord.com/oauth2/authorize?client_id=1409213287211470848&permissions=8&scope=bot%20applications.commands', '_blank');
               }}
               className="gloss-button text-white hover:text-purple-200 text-lg px-12 py-4 inline-flex items-center space-x-3"
             >
@@ -105,20 +105,20 @@ export default function Invite() {
           transition={{ duration: 0.8, delay: 1 }}
           className="moonveil-card p-8"
         >
-          <h3 className="text-2xl font-bold text-center mb-8">After Adding Moonveil</h3>
+          <h3 className="text-2xl font-bold text-center mb-8">After Adding Z+</h3>
           <div className="space-y-6">
             <div className="flex items-start space-x-4">
               <div className="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold text-sm">1</div>
               <div>
                 <h4 className="font-semibold text-white mb-1">Run Setup Command</h4>
-                <p className="text-gray-400">Use <code className="bg-gray-800 px-2 py-1 rounded text-purple-300">/setup</code> to configure Moonveil for your server</p>
+                <p className="text-gray-400">Use <code className="bg-gray-800 px-2 py-1 rounded text-purple-300">/prefix</code> to configure Z+'s prefix for your server</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
               <div className="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold text-sm">2</div>
               <div>
                 <h4 className="font-semibold text-white mb-1">Configure Music</h4>
-                <p className="text-gray-400">Set up music channels with <code className="bg-gray-800 px-2 py-1 rounded text-purple-300">/setup music</code></p>
+                <p className="text-gray-400">Set up automod with <code className="bg-gray-800 px-2 py-1 rounded text-purple-300">/automod</code></p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
