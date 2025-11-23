@@ -5,10 +5,10 @@ import { Bot, Users, Heart, Code, Star } from 'lucide-react';
 import { StatsCounter } from '@/components/stats-counter';
 
 const team = [
-  { name: 'Arima kousei', role: 'web devloper', avatar: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150' },
-  { name: 'Zoro', role: 'bot devloper - core', avatar: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150' },
-  { name: 'ayota', role: 'Backend Engineer', avatar: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=150' },
-  { name: 'bliss cafe', role: ' base community', avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150' }
+  { name: 'Arima kousei', role: 'web devloper', avatar: 'https://cdn.discordapp.com/avatars/1216087894263857285/224199bde22ae219dd2d7cb7cbf6e4b1.jpg?size=1024' },
+  { name: 'Zoro', role: 'bot devloper - core', avatar: 'https://cdn.discordapp.com/avatars/1263764768880332810/e0812524d496071d91723db8605ade47.jpg?size=1024' },
+  { name: 'ayota', role: 'Backend Engineer', avatar: 'https://cdn.discordapp.com/avatars/1414282997846249572/a_ce5109927573c999293e88bce4d0e76c.gif?size=1024' },
+  { name: 'bliss cafe', role: ' base community', avatar: 'https://cdn.discordapp.com/icons/1357012926703075559/a_d058bcba9cce578a1e00694eae7f3cfa.gif' }
 ];
 
 const reviews = [
