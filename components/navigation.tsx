@@ -33,7 +33,7 @@ export function Navigation() {
                 <Bot className="h-8 w-8 text-purple-400" />
                 <div className="absolute inset-0 blur-md bg-purple-400 opacity-30" />
               </div>
-              <span className="text-xl font-bold text-gradient">Moonveil</span>
+              <span className="text-xl font-bold text-gradient">Z+</span>
             </Link>
 
             {/* Desktop Navigation */}
