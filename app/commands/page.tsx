@@ -50,6 +50,27 @@ const commands = [
     example: '/meme drake'
   },
   {
+  name: '/noprefix',
+  description: "join our support server for no prefix.",
+  category: 'Prefix',
+  usage: '/noprefix',
+  example: '/noprefix'
+  },
+  {
+  name: '/prefix',
+  description: 'Show or manage the bot prefix.',
+  category: 'Prefix',
+  usage: '/prefix',
+  example: '/prefix'
+  },
+  {
+  name: '/setprefix',
+  description: 'Set a new prefix for the bot.',
+  category: 'Prefix',
+  usage: '/setprefix <prefix>',
+  example: '/setprefix !'
+  },
+  {
   name: '/antinuke',
   description: 'Shows or manages anti-nuke settings.',
   category: 'General',
@@ -85,11 +106,74 @@ const commands = [
   example: '/whitelistreset'
   },
   {
+  name: '/afk',
+  description: 'Set AFK status and enable auto-replies.',
+  category: 'AFK',
+  usage: '/afk [reason]',
+  example: '/afk eating'
+  },
+  {
+  name: '/afk_auto',
+  description: 'Enable auto-AFK after X minutes of inactivity. Use 0 to disable.',
+  category: 'AFK',
+  usage: '/afk_auto <minutes>',
+  example: '/afk_auto 5'
+  },
+  {
+  name: '/afk_remove',
+  description: 'Remove your AFK status.',
+  category: 'AFK',
+  usage: '/afk_remove',
+  example: '/afk_remove'
+  },
+  {
   name: '/wl',
   description: 'Whitelist a member to bypass moderation.',
   category: 'General',
   usage: '/wl <member>',
   example: '/wl @user'
+  },
+  {
+  name: '/avatar',
+  description: "Show a user's avatar.",
+  category: 'Information',
+  usage: '/avatar [member]',
+  example: '/avatar @user'
+  },
+  {
+  name: '/banner',
+  description: "Show a user's profile banner.",
+  category: 'Information',
+  usage: '/banner [member]',
+  example: '/banner @user'
+  },
+  {
+  name: '/channelinfo',
+  description: 'Show detailed information about a channel.',
+  category: 'Information',
+  usage: '/channelinfo [channel]',
+  example: '/channelinfo #general'
+  },
+  {
+  name: '/ping',
+  description: 'Check bot latency.',
+  category: 'Information',
+  usage: '/ping',
+  example: '/ping'
+  },
+  {
+  name: '/serverinfo',
+  description: 'View information about the server.',
+  category: 'Information',
+  usage: '/serverinfo',
+  example: '/serverinfo'
+  },
+  {
+  name: '/uptime',
+  description: 'Show how long the bot has been online.',
+  category: 'Information',
+  usage: '/uptime',
+  example: '/uptime'
   },
   {
   name: '/ban',
