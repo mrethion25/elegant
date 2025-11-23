@@ -26,7 +26,7 @@ export default function Status() {
             <span className="text-gradient">System Status</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Real-time status and performance metrics for Moonveil bot
+            Real-time status and performance metrics for Z+ bot
           </p>
         </motion.div>
 
