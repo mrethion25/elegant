@@ -81,7 +81,7 @@ export default function Features() {
             <span className="text-gradient">Powerful Features</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Discover all the ways Moonveil can enhance your Discord server with cutting-edge features and premium functionality
+            Discover all the ways Z+ can enhance your Discord server with cutting-edge features and premium functionality
           </p>
         </motion.div>
 
@@ -119,7 +119,7 @@ export default function Features() {
           className="mt-20"
         >
           <div className="moonveil-card p-8">
-            <h3 className="text-2xl font-bold text-center mb-8">Why Choose Moonveil?</h3>
+            <h3 className="text-2xl font-bold text-center mb-8">Why Choose Z+?</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
               <div>
                 <div className="text-3xl font-bold text-gradient mb-2">24/7</div>
