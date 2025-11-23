@@ -5,16 +5,16 @@ import { Bot, Users, Heart, Code, Star } from 'lucide-react';
 import { StatsCounter } from '@/components/stats-counter';
 
 const team = [
-  { name: 'Alex Chen', role: 'Lead Developer', avatar: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150' },
-  { name: 'Sarah Kim', role: 'UI/UX Designer', avatar: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150' },
-  { name: 'Mike Johnson', role: 'Backend Engineer', avatar: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=150' },
-  { name: 'Emma Davis', role: 'Community Manager', avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150' }
+  { name: 'Arima kousei', role: 'web devloper', avatar: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150' },
+  { name: 'Zoro', role: 'bot devloper - core', avatar: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150' },
+  { name: 'ayota', role: 'Backend Engineer', avatar: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=150' },
+  { name: 'bliss cafe', role: ' base community', avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150' }
 ];
 
 const reviews = [
   {
-    text: "Moonveil transformed our server! The music quality is incredible and moderation features are top-notch.",
-    author: "GamerGuild",
+    text: "Z+ transformed our server! The music quality is incredible and moderation features are top-notch.",
+    author: "bliss cafe",
     servers: "500+ members"
   },
   {
@@ -23,7 +23,7 @@ const reviews = [
     servers: "2000+ members"
   },
   {
-    text: "The custom commands and automation features saved us hours of manual work. Highly recommended!",
+    text: "The automation features saved us hours of manual work. Highly recommended!",
     author: "CreativeSpace",
     servers: "1200+ members"
   }
@@ -40,10 +40,10 @@ export default function About() {
           className="text-center mb-16"
         >
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            <span className="text-gradient">About Moonveil</span>
+            <span className="text-gradient">About Z+</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Built by passionate developers for the Discord community
+            Built by passionate developers for your community 
           </p>
         </motion.div>
 
@@ -59,8 +59,8 @@ export default function About() {
             <Bot className="h-16 w-16 text-purple-400 mx-auto mb-6" />
             <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
             <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Moonveil was created to provide Discord servers with the most advanced, reliable, and user-friendly bot experience possible. 
-              We believe every community deserves access to premium features without the premium price tag.
+              Z+ was created to provide Discord servers with the most advanced, reliable, and user-friendly bot experience possible. 
+              We believe every community deserves access to premium features without the premium price tag, experience top notch security in your server.
             </p>
           </div>
         </motion.div>
@@ -77,7 +77,7 @@ export default function About() {
             Growing Every Day
           </motion.h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <StatsCounter end={1500} label="Active Servers" suffix="+" />
+            <StatsCounter end={1500} label="secured Servers" suffix="+" />
             <StatsCounter end={250000} label="Happy Users" suffix="+" />
             <StatsCounter end={150} label="Commands" suffix="+" />
             <StatsCounter end={99.9} label="Uptime" suffix="%" />
@@ -160,7 +160,7 @@ export default function About() {
           <Code className="h-12 w-12 text-purple-400 mx-auto mb-4" />
           <h3 className="text-2xl font-bold mb-4">Open Source & Transparent</h3>
           <p className="text-gray-300 mb-6">
-            Moonveil is built with transparency in mind. Our code is open source and regularly audited for security and performance.
+            Z+ is built with transparency in mind. Our code is open source and regularly audited for security and performance.
           </p>
           <a
             href="#"
