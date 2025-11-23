@@ -29,11 +29,11 @@ const commands = [
     example: '/ban @user Breaking rules'
   },
   {
-    name: '/poll',
-    description: 'Create interactive polls',
+    name: '/help',
+    description: 'get to know all commands ',
     category: 'Utility',
-    usage: '/poll [question] [options]',
-    example: '/poll "Favorite color?" Red Blue Green'
+    usage: '/help',
+    example: '/help or &help'
   },
   {
     name: '/avatar',
@@ -48,6 +48,48 @@ const commands = [
     category: 'Fun',
     usage: '/meme [template]',
     example: '/meme drake'
+  },
+  {
+  name: '/antinueke',
+  description: 'Shows or manages anti-nuke settings.',
+  category: 'General',
+  usage: '/antinuke',
+  example: '/antinuke'
+  },
+  {
+  name: '/extraowner',
+  description: 'Add or view extra bot owners.',
+  category: 'General',
+  usage: '/extraowner',
+  example: '/extraowner add @user'
+  },
+  {
+  name: '/unwl',
+  description: 'Remove a member from whitelist.',
+  category: 'General',
+  usage: '/unwl <member>',
+  example: '/unwl @user'
+  },
+  {
+  name: '/whitelisted',
+  description: 'Show the list of whitelisted members.',
+  category: 'General',
+  usage: '/whitelisted',
+  example: '/whitelisted'
+  },
+  {
+  name: '/whitelistreset',
+  description: 'Reset the whitelist.',
+  category: 'General',
+  usage: '/whitelistreset',
+  example: '/whitelistreset'
+  },
+  {
+  name: '/wl',
+  description: 'Whitelist a member to bypass moderation.',
+  category: 'General',
+  usage: '/wl <member>',
+  example: '/wl @user'
   },
   {
     name: '/queue',
