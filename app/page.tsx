@@ -60,7 +60,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-5xl md:text-7xl font-bold mb-6"
           >
-            <span className="text-gradient">Moonveil</span>
+            <span className="text-gradient">Z+</span>
           </motion.h1>
 
           <motion.p
@@ -80,7 +80,7 @@ export default function Home() {
           >
             <Link href="/invite" className="gloss-button text-white hover:text-purple-200 flex items-center space-x-2">
               <Download className="h-5 w-5" />
-              <span>Invite Moonveil</span>
+              <span>Invite Z+</span>
             </Link>
             <Link href="/features" className="px-8 py-4 border border-purple-400/30 rounded-xl text-purple-400 hover:bg-purple-400/10 transition-all duration-300 flex items-center space-x-2">
               <Heart className="h-5 w-5" />
@@ -193,7 +193,7 @@ export default function Home() {
               Ready to Transform Your Server?
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Join thousands of Discord servers already using Moonveil
+              Join thousands of Discord servers already using Z+
             </p>
             <Link
               href="/invite"
